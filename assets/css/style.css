@@ -1,24 +1,19 @@
 /**
-* Template Name: MyResume - v2.1.0
 * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
+--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   color: #272829;
 }
 
 a {
-  color: #0563bb;
+  color: #eb7c05;
 }
 
 a:hover {
-  color: #067ded;
+  color:#14bd28 ;
   text-decoration: none;
 }
 
@@ -52,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #14bd28;
   transition: background 0.2s ease-in-out;
 }
 
@@ -568,8 +563,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+.portfolio #portfolio-flters li.filter-active{
+  color:#0563bb
+}
+
+.portfolio #portfolio-flters li:hover{
+  color: #14bd28;
 }
 
 .portfolio #portfolio-flters li:last-child {
